@@ -4,6 +4,8 @@ def to_uper(char):
         return (ord(char) - 32)
     else:
         return ord(char)
+
+
 def uppercase(string):
     string_new = ""
     for char in string:
