@@ -2,6 +2,7 @@
 FIZZ = "Fizz"
 BUZZ = "Buzz"
 
+
 def fizzbuzz():
     for i in range(1, 101):
         if (i % 3 == 0) and (i % 5 == 0):
@@ -10,5 +11,5 @@ def fizzbuzz():
             print('{}'.format(FIZZ), end=" ")
         elif i % 5 == 0:
             print('{}'.format(BUZZ), end=" ")
-        else: 
-            print(i)
+        else:
+            print(i, end=" ")
