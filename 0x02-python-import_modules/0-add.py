@@ -1,5 +1,2 @@
 from add_0 import add
-
-output = "{0} + {1} = {2}".format(2, 4, add(2, 4))
-
-print(output)
+print("{0} + {1} = {2}".format(1, 2, add(1, 2)))
