@@ -3,7 +3,11 @@
 """An Empty class that defines a rectangle"""
 
 
-class Rectangle:
-    """Represent a rectangle."""
-   pass
 
+
+
+class Rectangle:
+
+    """Represent a rectangle."""
+
+    pass
